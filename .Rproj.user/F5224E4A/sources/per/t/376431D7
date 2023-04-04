@@ -1,9 +1,9 @@
 {
     "id": "376431D7",
-    "path": null,
-    "project_path": null,
+    "path": "D:/Github Respositories/R-code-aut23/Week 1/6. R as a scratch pad.R",
+    "project_path": "Week 1/6. R as a scratch pad.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "903693988",
     "contents": "",
     "dirty": false,
     "created": 1680240106422.0,
@@ -12,14 +12,16 @@
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "17,2",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1639145042328,
-    "encoding": "",
+    "lastKnownWriteTime": 1680613302,
+    "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1680240106422,
+    "last_content_update": 1680613302031,
     "read_only": false,
     "read_only_alternatives": []
 }
