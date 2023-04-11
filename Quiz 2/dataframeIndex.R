@@ -6,12 +6,12 @@ testCode<-function(df){#########################################################
  
 
 
-## Write the code to compute the mean of the column V9 from
+## Write the code to compute the mean of the column V5 from
 ## the data frame df and assign the result to the variable y.
 ## NOTE that the data frame df will be provided by the script, so do not provide the
 ## data frame df when generating the hash value.
 
-y <- # insert code here
+y <- mean(df$V5)
 
 
  

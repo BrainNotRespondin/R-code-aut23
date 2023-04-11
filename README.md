@@ -1,2 +1,2 @@
 # R-code-aut23
-A collection of tutorial work done for a unit called Comp1013 Analytics programming 
+A collection of tutorial work done for unit Comp1013 Analytics programming 

@@ -14,7 +14,9 @@ testCode<-function(n){##########################################################
 # insert code below here
 y <- rep(0, n) # create an empty vector to store the sequence.
 # write the for loop to create the sequence and store it in y.
-
+for (i in 1:n) {
+  y[i] <- 0.58^i + 0.67^(i-1)
+}
 
  
 #################################################################################
