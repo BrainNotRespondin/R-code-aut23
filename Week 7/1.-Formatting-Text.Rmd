@@ -1,0 +1,12 @@
+---
+title: "1. Formatting Text"
+output: 
+  pdf_document: 
+    keep_tex: yes
+---
+1. There is no formatting on this text
+2. This text has a **bold** word
+3. *italic* words are slanted
+4. Here's a [link](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) to the R markdown sheet
+5. Text can have super^script^ writing
+6. Mistakes can be ~~crossed~~ out.
