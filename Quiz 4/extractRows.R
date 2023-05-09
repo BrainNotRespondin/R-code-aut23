@@ -12,11 +12,7 @@
 
 # insert function called extractRows here.
 extractRows <- function(df) {
-  # Extract the rows where white is between 18 and 40 inclusive
-  filtered_df <- df[df$white >= 18 & df$white <= 44, ]
-  
-  # Return the filtered data frame
-  return(filtered_df)
+    return(df[df$white >= 18 & df$white <= 44, ])
 }
 
  

@@ -12,14 +12,7 @@
 
 # insert function called rowNumber here.
 rowNumber <- function(df) {
-  # Calculate the difference between purple and pink
-  diff <- df$green - df$purple
-  
-  # Find the row index with the maximum difference
-  row_index <- which.max(diff)
-  
-  # Return the row index
-  return(row_index)
+  return(which.max(df$green - df$purple))
 }
 
  

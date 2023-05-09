@@ -12,13 +12,8 @@
 
 # insert function called depMean here.
 depMean <- function(df) {
-  # Extract the values of yellow where green is greater than 47
   pink_filtered <- df$pink[df$red > 41]
-  
-  # Calculate the mean of the filtered yellow values
   mean_pink <- mean(pink_filtered)
-  
-  # Return the mean of the filtered yellow values
   return(mean_pink)
 }
 
