@@ -65,6 +65,7 @@ total_revenue <- sales_data %>%
 print(daily_revenue)
 
 print(total_revenue)
+
 # Plot the results
 ggplot(total_revenue, aes(x=store_id, y=total_revenue, fill=store_id)) +
   geom_bar(stat="identity") +
@@ -113,6 +114,7 @@ total_revenue <- sales_data %>%
 print(daily_revenue)
 
 print(total_revenue)
+
 # Plot the results
 ggplot(total_revenue, aes(x=store_id, y=total_revenue, fill=store_id)) +
   geom_bar(stat="identity") +
@@ -193,8 +195,9 @@ product_type_summary <- merged_data %>%
             ) %>%
               arrange(desc(Sales_Quantity))
 
-# Display the product type summary table
+# Print the calculations
 print(product_type_summary)
+
 
 ```  
   
@@ -222,7 +225,7 @@ product_type_summary <- merged_data %>%
             ) %>%
               arrange(desc(Sales_Quantity))
 
-# Display the product type summary table
+# Print the calculations
 print(product_type_summary)
 
 ```
@@ -414,6 +417,7 @@ promo_sales <- sales_data %>%
   group_by(promo_type_1, promo_bin_1) %>%
   summarize(total_sales = sum(sales))
 
+# Print the calculations
 print(promo_sales)
 
 ```
@@ -434,14 +438,15 @@ print(promo_sales)
 # Load required library
 library(dplyr)
 
-# Load the sales data
+# Load the sales data in a data frame
 sales_data <- read.csv("sales_ug.csv")
 
-# Analyze the effectiveness of promotions on sales
+# Calculate sales for each combination of promo type and bin
 promo_sales <- sales_data %>%
   group_by(promo_type_1, promo_bin_1) %>%
   summarize(total_sales = sum(sales))
 
+# Print the calculations
 print(promo_sales)
 
 ```
