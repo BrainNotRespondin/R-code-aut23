@@ -1,6 +1,6 @@
 setwd("D:/Github Respositories/R-code-aut23/Report")
 
-#Load the Library
+# Load the Library
 library(dplyr)
 
 # Read the sales data
@@ -13,6 +13,4 @@ daily_revenue <- sales_data %>%
 
 # Print total revenue by store and date
 print(daily_revenue)
-
-head(sales_data)
 
