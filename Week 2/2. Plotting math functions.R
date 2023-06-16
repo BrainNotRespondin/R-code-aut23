@@ -14,25 +14,34 @@ curve(1/(1+exp(-x/5)), from=-30, to=30)
 x<- -50:50
 
 #q1
-y <- 3*x + 9
+plot(x,3*x + 9,
+     type="l")
 
 #q2
-y <- (2*x^2)+(4*x) +1
+plot(x,2*x^2+(4*x) +1,
+     type="l")
 
 #q3
-plot((-x^3)+(4*x^2)+(10*x)-7)
+plot((-x^3)+(4*x^2)+(10*x)-7,
+     type="l")
 
 #q4
-plot(log(x))
+plot(log(x),
+     type="l")
 
 #q5
-plot(sin(x))
+plot(sin(x),
+     type="l")
 
 #q6
-plot(cos(x/10))
+plot(cos(x/10),
+     type="l")
 
 #q7
-plot(sin(x/2)/x)
+plot(sin(x/2)/x,
+     type="l")
 
 #q8
-plot(1/(1+exp(-x/5)))
+plot(1/(1+exp(-x/5)),
+     type="l")
+

@@ -1,11 +1,17 @@
+head(morley)
 speed <-morley$Speed
+
+#q1
 speed <- speed + 299000
+
+#q2
 hist(speed)
 
-m <- mean(speed)
-s <- sd(speed)
-actual <- 299272.458
-d <- m - actual
-print (d)
+#q3
+mean(speed)
+sd(speed)
 
-help(morley)
+#q4 (number is equal to SOL)
+mean(speed) - 299272.458
+
+
