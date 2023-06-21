@@ -1,3 +1,5 @@
+library("dplyr")
+
 d <- data.frame(
   ID = c(580, 625, 630, 721, 700, 855, 740, 187, 571, 312),
   subject = c(
@@ -17,13 +19,10 @@ d <- data.frame(
 
 d
 
-aggregate(marks - subject, d, mean)
-subjectSet <- unique(d$subject)
-subjectMean <- rep(0, length(subjectSet))
+subjectMark <- d %>%
+  group_by(subject) %>%
+    summarise(mark = mean(marks))
 
-for (i in 1:length(subjectSet)) {
-  pos <- which(d$subject == subjectSet[i])
-  subjectMean[i] <- mean(d$marks[pos])
-}
 
-data.frame( subject = subjectSet, mark = subjectMean)
+subjectMark
+
