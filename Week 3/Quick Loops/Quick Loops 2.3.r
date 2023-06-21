@@ -1,9 +1,10 @@
-x = c(12,34,45,23,16)
-i = 0
-count = 0
-for (it in items){
-  if (it > x){
-    i = i + 1
+z <- c(12, 34, 45, 23, 16)
+x <- 21
+count <- 0
+for (item in z) {
+  if (item > x){
+    count = count + 1
   }
 }
-print(paste(count, "number are greater"))
+
+cat("There are", count, "Items that are bigger than", x)
