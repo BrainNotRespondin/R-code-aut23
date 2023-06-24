@@ -1,0 +1,21 @@
+---
+title: "3.Lists"
+output: pdf_document
+---
+- One Item
+- Another Item
+- The next item
+
+1. First item
+2. Second item
+3. Third Item  
+
+lorem ipsum
+
+1. First item
+    - A sub item
+    - Another sub item
+2. Second item
+    1. An ordered subitem
+    2. Another ordered subitem
+3. Third item

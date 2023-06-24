@@ -18,7 +18,7 @@ Q2(x)
 Q3 <- function(x){
   (-x^3)+(4*x^2)+10*x-7
 }
-plot(Q3)
+Q3(x)
 
 #Q4
 Q4 <- function(x){
@@ -35,4 +35,24 @@ Q5 <- function (x){
 
 Q5(x)
 
-#Q
+#Q6
+Q6 <- function (x){
+  y <- cos(x/10)
+  return(y)
+}
+Q6(x)
+
+#Q7
+Q7 <- function (x){
+  y <- sin(x/2)/x
+  return(y)
+}
+Q7(x)
+
+
+#Q8
+Q8 <- function (x){
+  y <- 1/(1 + exp(-x/5))
+  return(y)
+}
+Q8(x)

@@ -1,7 +1,15 @@
 ---
 title: "2.Formatting Equations"
-output: 
-  pdf_document: 
-    keep_tex: yes
+output: pdf_document
 ---
-$y = ax + b
+Q1 $y = ax + b$  
+Q2 $y = ax^2 + bx + c$  
+Q3 $log_e(x) = sin(y)$  
+Q4 $sin^2x + cos^2x = 1$  
+Q5 $A\vec{x} = \vec{x}\lambda$  
+Q6 ${\sum_{i = 1}^N x^i}$  
+Q7 ${\int_{0}^{\infty} e^{-2i\pi x} dx}$  
+Q8 $\bar{x} = \frac{\sum_{i = 1}^N x_i}{N}$  
+Q9 $s^2 = \sqrt{\frac{\sum_{i = 1}^N {(x_i - \bar{x})}^2}{N - 1}}$  
+Q10 $\mu = {\int xp(x)dx}$  
+Q11 $\sigma^2 = {\int {(x - \mu)}^2p(x)dx}$

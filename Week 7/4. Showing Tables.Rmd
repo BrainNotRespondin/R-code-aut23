@@ -1,0 +1,23 @@
+---
+title: "4. Showing Tables"
+output: pdf_document
+
+---
+```{r setup, include=FALSE}
+#opts_chunk$set(fig.path="figure/07labliterate-")
+answers = TRUE
+library("knitr")
+library("kableExtra")
+```
+  
+  
+```{r echo = FALSE, eval = TRUE}
+d <- data.frame(Name = c("Gandalf", "Bilbo", "Legolas"), 
+	Race = c("Human", "Hobbit", "Elf"),
+	Class = c("Wizard", "Rogue", "Ranger"))
+kable(d)
+```
+
+```{r echo = FALSE, eval = TRUE}
+d %>% kbl() %>% kable_material(c("striped", "hover"))
+```

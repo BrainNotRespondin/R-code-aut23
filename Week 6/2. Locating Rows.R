@@ -1,5 +1,5 @@
 main <- function(){
-  q3()
+  q5()
 }
 
 q1() <- function(){
@@ -23,19 +23,22 @@ q4 <-function(){
   i <- sd(d$disp)
   print(d[i,])
   }
-
+q5 <- function(){
+  df <- subset(mtcars, subset=(vs == 0))
+  mean(df$am == 0)
+}
 q6() <- function(){
-  df <- subset(mtcars,subset = (mpg > 25))
+  df <- subset(mtcars,subset=(mpg > 25))
   table(df$carb)
 }
 
-q8() <- function(){
-  t <- table(mtcars$vs,mtcars$am)
-  rownames(t) <- c("Non-V", "v")
-  colnames(t) <- c("Manual" , "Auto")
-  t
+q7() <- function(){
+  hist(mtcars$drat)
 }
 
-
+q8() <- function(){
+  table(mtcars$vs, mtcars$am)
+}
 
 main()
+

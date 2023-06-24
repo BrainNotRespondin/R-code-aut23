@@ -1,0 +1,22 @@
+---
+title: "5. Code Blocks"
+output: pdf_document
+---  
+
+Q1
+```{r}
+x <- c(7, 4, 7, 2, 3, 4)
+print(var(x))
+```
+  
+Q2  
+
+```{r, echo = FALSE}
+x <- seq(from = -10, to = 10, by = 0.1)
+plot(x, x^2, type = "l", xlab = "x", ylab = "f(x)")
+```  
+
+Q3
+```{r, eval = TRUE}
+x <- c(7, 4, 7, 2, 3, 4)
+```
